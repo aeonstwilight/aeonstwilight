@@ -12,6 +12,13 @@ I like detections I can prove: tested against real attack data, run on a real en
 - 🌐 **Write-ups:** [rwilliams.dev](https://rwilliams.dev)
 - 📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/williams-ryan/)
 
+### Open source contributions
+
+**[SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch)**, the converter behind `sigma convert` for Elasticsearch:
+- Fixed ES|QL `LIKE` escaping, so rules matching Windows paths no longer produce queries Elasticsearch rejects ([#238](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/238), merged)
+- Translated Sigma regexes for Lucene's whole-value matching: exact matches went from 25 to 211 of 215 SigmaHQ regex conditions, tested on Elasticsearch ([#241](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/241), merged)
+
+
 ### Projects
 
 **[security-automation-scripts](https://github.com/aeonstwilight/security-automation-scripts)**: detections and SOC scripts. Each detection is one file with the logic, queries for Splunk, Microsoft Sentinel and Elastic, false positives, blind spots, how to validate it and how to respond. Covers Windows and Active Directory (ransomware precursors, lateral movement, WMI, Office abuse) and AWS (logging disabled, root activity, console login without MFA, credentials created for another user, resources opened to the internet), plus a Windows triage script.
