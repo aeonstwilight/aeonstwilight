@@ -5,7 +5,7 @@ Detection engineer and SOC analyst with 6+ years in security operations and 10 y
 I like detections I can prove: tested against real attack data, run on a real engine, and shipped with the triage steps an analyst needs at 2 a.m.
 
 - 🔍 **Focus:** detection engineering, incident response, threat hunting, ATT&CK-aligned coverage
-- 🛠️ **Day to day:** Splunk SPL, KQL (Microsoft Sentinel / Defender XDR), Elastic, Sigma, Sysmon and Windows event logs, AWS CloudTrail, CrowdStrike, SentinelOne, Wiz
+- 🛠️ **Day to day:** Splunk SPL, KQL (Microsoft Sentinel / Defender XDR), Elastic, Sigma, Sysmon and Windows event logs, AWS CloudTrail, CrowdStrike, Trend Micro DSM, SentinelOne, Carbon Black, Qualys, Tenable Nessus
 - 🐍 **Scripting:** Python and PowerShell, plus LLM-assisted detection engineering
 - 📜 **Certification:** ISO/IEC 27001 Lead Auditor
 - 🎓 **Education:** BS, Information & Computer Security, Davenport University
